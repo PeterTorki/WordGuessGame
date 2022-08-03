@@ -1,55 +1,51 @@
 let wordList = [
     {
-        word: "python",
-        hint: "programming language"
+        word: "dentist",
+        hint: "A doctor who specializes in teeth"
     },
     {
         word: "guitar",
         hint: "a musical instrument"
     },
     {
-        word: "aim",
-        hint: "a purpose or intention"
+        word: "javascript",
+        hint: "a programming language"
     },
     {
-        word: "venus",
-        hint: "planet of our solar system"
+        word: "apple",
+        hint: "a fruit that is red and round"
+    },
+    {
+        word: "banana",
+        hint: "a fruit that is yellow and tall"
+    }, 
+    {
+        word: "orange",
+        hint: "a fruit that is orange and round"
+    },
+    {
+        word: "dog",
+        hint: "a pet animal and not cat"
+    },
+    {
+        word: "cat",
+        hint: "a pet animal and not dog"
+    },
+    {
+        word: "hospital",
+        hint: "a building that is used to treat people"
+    },
+    {
+        word: "school",
+        hint: "a building that is used to teach people"
     },
     {
         word: "gold",
         hint: "a yellow precious metal"
     },
     {
-        word: "ebay",
-        hint: "online shopping site"
-    },
-    {
-        word: "golang",
+        word: "java",
         hint: "programming language"
-    },
-    {
-        word: "coding",
-        hint: "related to programming"
-    },
-    {
-        word: "matrix",
-        hint: "science fiction movie"
-    },
-    {
-        word: "bugs",
-        hint: "related to programming"
-    },
-    {
-        word: "avatar",
-        hint: "epic science fiction film"
-    },
-    {
-        word: "gif",
-        hint: "a file format for image"
-    },
-    {
-        word: "mental",
-        hint: "related to the mind"
     },
     {
         word: "map",
@@ -57,10 +53,10 @@ let wordList = [
     },
     {
         word: "island",
-        hint: "land surrounded by water"
+        hint: "a land surrounded by water"
     },
     {
-        word: "hockey",
+        word: "football",
         hint: "a famous outdoor game"
     },
     {
@@ -68,72 +64,32 @@ let wordList = [
         hint: "related to a indoor game"
     },
     {
-        word: "viber",
+        word: "whatsapp",
         hint: "a social media app"
     },
     {
-        word: "github",
-        hint: "code hosting platform"
-    },
-    {
-        word: "png",
-        hint: "a image file format"
-    },
-    {
-        word: "silver",
-        hint: "precious greyish-white metal"
-    },
-    {
         word: "mobile",
-        hint: "an electronic device"
+        hint: "an electronic device that we hold in our hands"
     },
     {
-        word: "gpu",
-        hint: "computer component"
-    },
-    {
-        word: "java",
-        hint: "programming language"
+        word: "cpu",
+        hint: "the mind of computer"
     },
     {
         word: "google",
         hint: "famous search engine"
     },
     {
-        word: "venice",
-        hint: "famous city of waters"
-    },
-    {
         word: "excel",
-        hint: "microsoft product for windows"
-    },
-    {
-        word: "mysql",
-        hint: "a relational database system"
-    },
-    {
-        word: "nepal",
-        hint: "developing country name"
+        hint: "microsoft product for windows used to calculate formulas"
     },
     {
         word: "flute",
         hint: "a musical instrument"
     },
     {
-        word: "crypto",
-        hint: "related to cryptocurrency"
-    },
-    {
-        word: "tesla",
-        hint: "unit of magnetic flux density"
-    },
-    {
         word: "mars",
-        hint: "planet of our solar system located after us"
-    },
-    {
-        word: "proxy",
-        hint: "related to server application"
+        hint: "planet of our solar system and located after earth"
     },
     {
         word: "email",
@@ -145,57 +101,34 @@ let wordList = [
     },
     {
         word: "air",
-        hint: "related to a gas"
-    },
-    
-    {
-        word: "idea",
-        hint: "a thought or suggestion"
+        hint: "related to a gas and we are breathing it"
     },
 
-    {
-        word: "server",
-        hint: "related to computer or system"
-    },
-    {
-        word: "svg",
-        hint: "a vector image format"
-    },
-    {
-        word: "jpeg",
-        hint: "a image file format"
-    },
     {
         word: "search",
         hint: "act to find something"
     },
     {
         word: "key",
-        hint: "small piece of metal"
+        hint: "small piece of metal used to open a door"
     },
+    
     {
         word: "egypt",
-        hint: "a country name"
+        hint: "best country in the world"
     },
     {
         word: "joker",
-        hint: "psychological thriller film"
-    },
-    {
-        word: "dubai",
-        hint: "developed country name"
-    },
-    {
-        word: "photo",
-        hint: "representation of person or scene"
+        hint: "a famous movie that is was a criminal in batman movie"
     },
     {
         word: "nile",
         hint: "largest river in the world"
     },
+
     {
         word: "rain",
-        hint: "related to a water"
+        hint: "a liquid that falls from the sky"
     },
     {
         word: "Einstein",
