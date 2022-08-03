@@ -124,7 +124,7 @@ resetGame.addEventListener("click", () => renderGame())
 
 start.addEventListener("click", () => {
     if(!first)
-        alert('Please make sure that you opens the game from a PC and the keyboard is english.')
+        alert('Please make sure that you opens the game from a PC(Laptop - Computer) and the keyboard is english.')
     
     first = 1
     totalScore = 0;
