@@ -1,0 +1,230 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    overflow: hidden;
+    min-width: 400px;
+    background-image: linear-gradient(to right top, #343f4f, #3e5159, #516261, #69716d, #80817e);    
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.guess-box{
+    width: 75%;
+    background-color: rgba(200, 208, 211, 0.5);
+    border-radius: 10px;
+}
+
+#first{
+    color: #fcfffd;
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 3px;
+    border-bottom: solid 2px #308078;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    line-height: 40px;
+    padding-left: 22px; 
+    line-height: 60px;
+}
+
+.guess-data{
+    margin: 25px ; 
+    margin-right: 25px;
+    margin-left: 30px;
+    display: none;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 50px;
+    height: 70px;
+    margin: 10px;
+    font-family:'JetBrains mono', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #07636f;
+    background: #EEE;
+    border: 1px solid #273549;
+    border-radius: 5px;
+}
+
+.start-back{
+    white-space:normal !important;
+    word-wrap:break-word;
+    display: flex;
+    margin-left: 25%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(200, 208, 211, 0.5);
+    width: 90vw;
+    height: 60px;
+    border-radius: 6px;
+}
+
+
+button{
+    cursor: pointer;
+    background-color:#308078 ;
+    color: rgb(237, 241, 234);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    height: 40px;
+    margin-left:25%;
+    margin-right:25%;
+    
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    
+    border-radius: 6px;
+    direction: ltr;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 40px;
+    
+}
+
+.start-game-btn{
+    position: absolute;
+    width: 85vw;
+    top: 50%;
+    left: 25%;
+}
+
+.texts{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.texts p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.reset{   
+    margin-top: 45px;
+    position: relative;
+    width: 100%;
+    top: 10px;
+    overflow: visible;
+    left: 25%;
+    padding-bottom: 40px;
+    margin-bottom: -10px;
+}
+
+
+
+.wrong, .popup-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-box{
+    user-select: none;
+    width: 500px;
+    height: 300px;
+
+    background: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #b3b3b3;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    transition: all .3s ease-in-out;
+}
+#popupBox1{
+    pointer-events: none;
+    opacity: 0;
+}
+
+#popupBox2{
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+.popup-box i{
+    font-size: 60px;
+    border: 5px solid #ff3333;
+    border-radius: 100%;
+    padding: 10px 20px;
+    
+}
+#popupBox2 i{
+    padding: 15px 20px;
+    color: #7ac142;
+    border-color: #7ac142;
+}
+
+.popup-box h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.popup-box h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.btn, a{
+    text-decoration: none;
+    background: #ff3333;
+    font-size: 30px;
+    color: white;
+    padding: 10px 15px;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    transform: translate(1%);
+    text-align: center;
+    border: 1px solid #ff3333;
+    border-radius: 20px;
+}
+#btn2{
+    background: #7ac142;
+    border-color: #7ac142;
+}
+
+.btn:hover{
+    transform: .5s; 
+    background: #e60000;
+}
+#btn2:hover{
+    transform: .5s; 
+    background: rgb(81, 184, 2);
+}
+
+#score{
+    position:absolute;
+    top: 5px;
+    left: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: #464b4c;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}

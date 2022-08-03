@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="index.css" type="text/css" rel="stylesheet">
+        <title>Guess the word</title>
+    </head>
+    <body>
+        <div id="score">Score: <span id="scoreCnt">0</span></div>    
+        <!-- guess-box(display of  is none) to start-back(display of guess-data is none) -->
+        <div id="Backs" class="start-back">
+            <button id="startGame" class="start-game-btn">Start Game</button>
+            <div id="showNow" class="guess-data">
+                <h1 id = 'first'>Guess the word</h1>
+                <div id="inputs" class="inputs">
+                </div>
+                <h1></h1>
+                <div class="texts">
+                    <p>Hint: <span id="hint"></span></p>
+                    <p>Remaining guesses: <span id="guesses"></span></p>
+                    <p>Wrong letters: <span id = "wrongs"></span> </p>
+                </div>
+                <button id="reset" class="reset"> Reset Game</button>
+            </div>
+        </div>
+        
+        <div id="popupBox1" class="popup-box">
+            <i class="fa-solid fa-xmark"></i>
+            <h1>Oops...</h1>
+            <h2>You Lost!</h2>
+            <button id="btn1" class = "btn">Ok!</button>
+        </div>
+    
+        <div id="popupBox2" class="popup-box">
+            <i class="fa-solid fa-check"></i>
+            <h1>Congratulations!</h1>
+            <h2>You Won!</h2>
+            <button id="btn2" class = "btn">Ok!</button>
+        </div>
+        <script src="scripts/words.js"></script>
+        <script src="scripts/index.js"></script>
+        <script src="https://kit.fontawesome.com/6fc9feaa03.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    </body>
+</html>
