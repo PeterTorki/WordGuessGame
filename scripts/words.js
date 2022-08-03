@@ -129,7 +129,7 @@ let wordList = [
     },
     {
         word: "mars",
-        hint: "planet of our solar system"
+        hint: "planet of our solar system located after us"
     },
     {
         word: "proxy",
