@@ -1,4 +1,4 @@
-
+let first = 0
 const start = document.getElementById("startGame");
 const newDiv = document.getElementById("Backs");
 const showNow = document.getElementById("showNow");
@@ -123,6 +123,10 @@ rOkBtn.addEventListener("click", () => {
 resetGame.addEventListener("click", () => renderGame())
 
 start.addEventListener("click", () => {
+    if(!first)
+        alert('Please make sure that you opens the game from a PC and the keyboard is english.')
+    
+    first = 1
     totalScore = 0;
     scoreSpan.textContent = `${totalScore}`;
     start.style.display = 'none';
